@@ -21,11 +21,9 @@ import numpy as np
 
 ## General workflow:
 ## Hifi reads are separated into separate fastas based on exact barcode matches
-## A value count function is run on the data, then exported as fasta
-## idk idk
-## sequences are translated to proteins then protein seqs are value counted
-## the output (pcounts) is run through usearch to generate the qrowdots string
-## mutations are id'd, then comparison fold change csv's are created
+## Sequences are translated to proteins then protein seqs are value counted.
+## The output (pcounts) is run through usearch to generate the qrowdots string
+## Mutations are ID'd, then comparison data is exported to csvs
 
 ## PacBio barcodes
 ## Includes full 16bp barcodes, then 1 and 2bp truncations from the 5' end
